@@ -1,4 +1,5 @@
 # Resizer
+<img width="517" height="353" alt="スクリーンショット 2025-08-29 16 43 06" src="https://github.com/user-attachments/assets/b2b8f5cc-7ee5-4adf-8478-96356c3eaaaa" />
 
 『画像を960x540以下にリサイズできるシンプルWebアプリ』
 
