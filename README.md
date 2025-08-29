@@ -45,7 +45,7 @@ https://resizer-kohl.vercel.app/
 このWebアプリは、ChatGPTやGitHub CopilotといったAIツールのサポートを受けながら開発しました。  
 コードの雛形やエラーの解決にAIを活用しつつ、自分自身で理解・修正を重ねながら完成させています。
 
-# Resizer
+# Resizer Introduce (English ver.)
 
 A simple web app to resize images to **960×540 or smaller**.
 
