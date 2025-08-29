@@ -38,7 +38,7 @@ Next.jsとTailwind CSSを用いて実装しました。
 ---
 
 ## 公開URL
-https://resizer-kohl.vercel.app/
+https://resizer-mahirok.vercel.app
 
 ---
 ## 制作サポート
