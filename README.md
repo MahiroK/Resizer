@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Resizer
 
-## Getting Started
+『画像を960x540以下にリサイズできるシンプルWebアプリ』
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 紹介
+Resizerは、画像をアップロードすると自動で960×540以内に縮小し、ダウンロードできるWebアプリです。  
+処理はすべてブラウザ内（クライアントサイド）で完結するため、安全かつ高速に利用できます。  
+Next.jsとTailwind CSSを用いて実装しました。  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 機能
+- アップロードした画像を自動で960×540以内に縮小  
+- 縦横比を維持してリサイズ  
+- ワンクリックでダウンロード  
+- サーバーに画像を保存せずブラウザ内で処理  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 作ったきっかけ
+授業で提出するスクリーンショットが **960×540以下でないとアップロードできない** という制約があり、  
+画像のサイズ調整に毎回時間がかかってしまっていました。  
+「もっと手軽にリサイズできたらいいのに」という想いから、このWebアプリを作りました。  
 
-To learn more about Next.js, take a look at the following resources:
+課題提出だけでなく、SNS投稿や資料作成でも役立つと思い、シンプルなUIと安全設計にこだわっています。
+ぜひ、多くの方に使っていただけると嬉しいです。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 使用技術
+- Next.js  
+- React  
+- Tailwind CSS  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 公開URL
+https://resizer-kohl.vercel.app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+## 制作サポート
+このWebアプリは、ChatGPTやGitHub CopilotといったAIツールのサポートを受けながら開発しました。  
+コードの雛形やエラーの解決にAIを活用しつつ、自分自身で理解・修正を重ねながら完成させています。
+
